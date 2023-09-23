@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz de Cards</title>
+    <link rel="icon" type="imagem.png" href="./midia/confete.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="background">
+      <div id="Main">
+        <div id="container">
+          <div id="toppage">
+            <p id="themename">
+              <span><img src="./midia/confete.png" alt="" /></span
+              ><span1>Quiz</span1>Time
+            </p>
+            <div id="rightwrong">
+              <div id="lefttoppagewrong">
+                <img class="icon" src="./midia/wrong.svg" alt="" />
+                <p id="numberwrong">0</p>
+              </div>
+              <div id="lefttoppageright">
+                <img class="icon" src="./midia/Icon.svg" alt="" />
+                <p id="numbercorrects">0</p>
+              </div>
+            </div>
+          </div>
+          <div id="text">O que Tim Maia provavelmente gostaria de fazer?</div>
+          <div id="containeropcoes">
+            <div class="opcoes" onclick="verificarResposta(0)">
+              <div class="resultado">
+                <div class="bola">
+                  <img class="bolaresultado" src="" alt="" />
+                </div>
+              </div>
+              <img
+                id="firstimage"
+                class="imagens"
+                src="./midia/Success.png"
+                alt=""
+              />
+              <p id="firsttext" class="textopcoes">Achar um tesouro.</p>
+            </div>
+            <div class="opcoes" onclick="verificarResposta(1)">
+              <div class="resultado">
+                <div class="bola">
+                  <img class="bolaresultado" src="" alt="" />
+                </div>
+              </div>
+              <img
+                id="secondimage"
+                class="imagens"
+                src="./midia/Imagination.png"
+                alt=""
+              />
+              <p id="secondtext" class="textopcoes">Ter mais tempo para ler.</p>
+            </div>
+            <div class="opcoes" onclick="verificarResposta(2)">
+              <div class="resultado">
+                <div class="bola">
+                  <img class="bolaresultado" src="" alt="" />
+                </div>
+              </div>
+              <img
+                id="thirdimage"
+                class="imagens"
+                src="./midia/Adventure.png"
+                alt=""
+              />
+              <p id="thirdtext" class="textopcoes">Navegar pelos 7 mares.</p>
+            </div>
+          </div>
+          <div id="bottompage">
+            <div id="fasegame">
+              <p id="numberatual">1</p>
+              <p id="totalnumber">/6</p>
+            </div>
+            <div id="twobuttons">
+              <button id="buttonback" onclick="backpage()" class="button">
+                <div class="elipse" id="e1">
+                  <img
+                    class="icon"
+                    id="leftarrow"
+                    src="./midia/arrow.svg"
+                    alt=""
+                  />
+                </div>
+              </button>
+              <button id="buttonnext" onclick="nextpage()" class="button">
+                <div class="elipse" id="e2">
+                  <img
+                    class="icon"
+                    id="rightarrow"
+                    src="./midia/arrow.svg"
+                    alt=""
+                  />
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
