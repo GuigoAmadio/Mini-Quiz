@@ -17,7 +17,7 @@ Projeto teste de aprendizado
 <br>
 
 <p align="center">
-  <img alt="Segundo Projeto" src="./Midia/Cover.png" width="100%">
+  <img alt="Segundo Projeto" src="./midia/cardsREADME.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
