@@ -139,7 +139,7 @@ function verificarResposta(selectedOption) {
 }
 
 function begingame() {
-  window.location.href = "index.html";
+  window.location.href = "index2.html";
 }
 
 var isBackArrowVisible = true;
@@ -159,7 +159,7 @@ function backpage() {
   setTimeout(() => {
     currentQuestionIndex--;
     if (currentQuestionIndex === menorindex) {
-      window.location.href = "index2.html";
+      window.location.href = "index.html";
     }
     if (currentQuestionIndex < questions.length) {
       displayQuestion();
@@ -209,7 +209,7 @@ function nextpage() {
 }
 
 function playagain() {
-  window.location.href = "index.html";
+  window.location.href = "index2.html";
 }
 
 displayQuestion();
