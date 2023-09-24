@@ -60,7 +60,7 @@ const questions = [
 let currentQuestionIndex = 0;
 
 function displayQuestion() {
-  if (window.location.pathname === "/index2.html") {
+  if (window.location.pathname.includes("/index2.html")) {
     const questionElement = document.getElementById("text");
     const optionsElement = document.querySelectorAll(".textopcoes");
     const bolaresultado = document.querySelector(".bolaresultado");
